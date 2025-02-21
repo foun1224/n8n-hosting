@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: init-data
-  namespace: stage-n8n
+  namespace: n8n
 data:
   init-data.sh: |
     #!/bin/bash
