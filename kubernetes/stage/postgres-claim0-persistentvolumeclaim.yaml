@@ -2,7 +2,7 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: postgresql-pv
-  namespace: stage-n8n
+  namespace: n8n
 spec:
   accessModes:
     - ReadWriteOnce
