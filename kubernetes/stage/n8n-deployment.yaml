@@ -51,6 +51,8 @@ spec:
                   key: POSTGRES_NON_ROOT_PASSWORD
             - name: N8N_PROTOCOL
               value: http
+            - name: N8N_HOST
+              value: stage-n8n.bibian.co.jp
             - name: N8N_PORT
               value: "5678"
           image: n8nio/n8n
